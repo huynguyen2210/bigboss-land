@@ -114,8 +114,10 @@ ul {
     font-weight: 500;
 }
 
-.navbar-light .navbar-toggler {
-    border-color: #f0eeeb !important;
+.navbar-dark .navbar-toggler {
+    border-color: unset !important;
+    outline: none;
+    color: rgba(255, 255, 255, 0);
 }
 
 .navbar-light .navbar-toggler:hover,
