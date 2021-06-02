@@ -133,15 +133,8 @@ ul {
     position: relative;
     clear: both;
     margin: 10% auto 0;
-}
-
-.navbar-collapse .navbar-nav {
-    position: absolute;
-    background-color: #000;
-    opacity: 0.65;
-    z-index: 99;
-    width: 30%;
-    right: 0;
+    transition: 0s;
+    transition-timing-function: step-start;
 }
 
 .banner-content h3 {
@@ -405,6 +398,14 @@ footer .footer-line {
     }
     .navbar {
         z-index: 99;
+    }
+    .navbar-collapse .navbar-nav {
+        position: absolute;
+        background-color: #000;
+        opacity: 0.65;
+        z-index: 99;
+        width: 30%;
+        right: 0;
     }
     /* .banner-content {
         display: none !important;
