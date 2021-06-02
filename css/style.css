@@ -117,7 +117,7 @@ ul {
 .navbar-dark .navbar-toggler {
     border-color: unset !important;
     outline: none;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0) !important;
 }
 
 .navbar-light .navbar-toggler:hover,
