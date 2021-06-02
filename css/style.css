@@ -182,6 +182,7 @@ input[type="text"]:active {
     background-image: url(../images/content1-img.png);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: contain;
     padding-top: 4rem;
     padding-bottom: 3rem;
 }
@@ -317,7 +318,8 @@ input[type="text"]:active {
 
 /* FOOTER */
 
-footer {
+
+/* footer {
     position: relative;
     background-image: url(../images/footer-img.png);
     background-repeat: no-repeat;
@@ -326,7 +328,7 @@ footer {
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 3rem;
-}
+} */
 
 footer .footer-line {
     position: absolute;
