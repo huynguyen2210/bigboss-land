@@ -322,8 +322,7 @@ input[type="text"]:active {
 
 /* FOOTER */
 
-
-/* footer {
+footer {
     position: relative;
     background-image: url(../images/footer-img.png);
     background-repeat: no-repeat;
@@ -332,11 +331,61 @@ input[type="text"]:active {
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 3rem;
-} */
+}
 
 footer .footer-line {
     position: absolute;
     bottom: 15%;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-content #footer-content-info {
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+.footer-content #content-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.footer-content #company-addr,
+.footer-content #company-tel {
+    font-size: 16px;
+}
+
+.footer-content #company-addr:before {
+    content: "";
+    background-image: url(../images/location-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    padding-right: 30px;
+}
+
+.footer-content #company-tel:before {
+    content: "";
+    background-image: url(../images/tel-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    padding-right: 30px;
+}
+
+.nav-column .footer-nav-title {
+    color: #fff;
+    font-size: 22px;
+}
+
+.nav-column ul li a {
+    color: #fff;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1440px) {
