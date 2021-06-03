@@ -333,16 +333,6 @@ footer {
     padding-bottom: 3rem;
 }
 
-footer .footer-line {
-    position: absolute;
-    bottom: 15%;
-}
-
-.social-link img {
-    width: 40px;
-    height: 40px;
-}
-
 .footer-content #footer-content-info {
     margin-left: 1.5rem;
     color: #fff;
@@ -386,6 +376,20 @@ footer .footer-line {
 .nav-column ul li a {
     color: #fff;
     font-size: 16px;
+}
+
+.social-link {
+    padding-left: 15px;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+}
+
+footer .footer-line {
+    position: absolute;
+    bottom: 2rem;
 }
 
 @media screen and (max-width: 1440px) {
@@ -435,7 +439,7 @@ footer .footer-line {
         height: 579px;
     }
     .logo {
-        width: 50px;
+        width: 60px;
         height: auto;
     }
     .navbar-collapse .dropdown-menu {
@@ -468,5 +472,17 @@ footer .footer-line {
     .banner-content h3 {
         font-size: 24px;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-content #footer-content-info {
+        margin-left: 0.5rem;
+    }
+    .footer-content #content-title {
+        font-size: 16px;
+    }
+    .nav-column .footer-nav-title {
+        font-size: 18px;
     }
 }
