@@ -269,7 +269,7 @@ input[type="text"]:active {
 .sample-high-proj .card img,
 .sample-going-proj1 .card img,
 .sample-going-proj2 .card img {
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
     margin: 0;
     border-radius: 5px;
@@ -308,7 +308,7 @@ input[type="text"]:active {
     font-family: "UTMAvo";
     color: #fff;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, .65);
+    background-color: rgba(0, 0, 0, .6);
     width: 100%;
     text-align: left;
     bottom: 0;
@@ -346,7 +346,7 @@ input[type="text"]:active {
 
 .sub-content .sub-info {
     color: #fff;
-    /* margin: 2rem 0; */
+    padding: 1rem 0;
 }
 
 .sub-img img {
@@ -558,15 +558,16 @@ footer .footer-line {
     }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 769px),
+(max-width: 320px) {
     .sample-high-proj .card .card-img-top #proj-status {
-        background-color: rgba(0, 0, 0, .65);
+        background-color: rgba(0, 0, 0, .6);
         width: unset;
         bottom: unset;
         top: 0;
     }
     .sample-high-proj .card .card-img-top #proj-detail {
-        background-color: rgba(0, 0, 0, .65);
+        background-color: rgba(0, 0, 0, .6);
         width: 100%;
     }
 }
@@ -593,6 +594,26 @@ footer .footer-line {
     .banner-content h3 {
         font-size: 24px;
         margin-bottom: 20px;
+    }
+    .product-content {
+        display: block !important;
+        margin-top: 70px;
+    }
+    .product-content .card {
+        max-width: 88%;
+        margin: 0 auto 100px;
+    }
+    .sample-high-proj,
+    .sample-going-proj1,
+    .sample-going-proj2 {
+        display: block !important;
+    }
+    .sample-high-proj .card,
+    .sample-going-proj1 .card,
+    .sample-going-proj2 .card {
+        max-width: 88%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
