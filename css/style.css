@@ -532,7 +532,7 @@ footer .footer-line {
         height: 579px;
     }
     .logo {
-        width: 60px;
+        width: 50px;
         height: auto;
     }
     .navbar-collapse .dropdown-menu {
@@ -576,6 +576,15 @@ footer .footer-line {
     .another-news {
         margin-top: 1rem;
     }
+    .top-banner {
+        height: 500px;
+    }
+    .banner-img {
+        height: 500px;
+    }
+    .banner-cover {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -599,9 +608,6 @@ footer .footer-line {
         height: 300px;
     }
     .banner-cover {
-        height: 300px;
-    }
-    .header-cover {
         height: 300px;
     }
     .banner-content {
