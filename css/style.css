@@ -94,14 +94,14 @@ ul {
     font-family: "UTMAvo Bold";
 }
 
-.navbar-nav #audience {
-    color: #fff;
+.navbar-nav .audience {
+    color: #fff !important;
     font-size: 20px;
     line-height: 1;
 }
 
-.navbar-nav #user-permit {
-    color: #fff;
+.navbar-nav .user-permit {
+    color: #fff !important;
     font-size: 16px;
     line-height: 20px;
 }
@@ -279,7 +279,7 @@ input[type="text"]:active {
     position: relative;
 }
 
-.sample-high-proj .card .card-img-top #proj-status {
+.sample-high-proj .card .card-img-top .proj-status {
     position: absolute;
     font-family: "UTMAvo Bold";
     color: #51ff2a;
@@ -292,7 +292,7 @@ input[type="text"]:active {
     padding: 0.5rem 1rem;
 }
 
-.sample-high-proj .card .card-img-top #proj-detail {
+.sample-high-proj .card .card-img-top .proj-detail {
     position: absolute;
     font-family: "UTMAvo";
     color: #fff;
@@ -302,8 +302,8 @@ input[type="text"]:active {
     padding: 0.5rem 1rem;
 }
 
-.sample-going-proj1 .card .card-img-top #proj-detail,
-.sample-going-proj2 .card .card-img-top #proj-detail {
+.sample-going-proj1 .card .card-img-top .proj-detail,
+.sample-going-proj2 .card .card-img-top .proj-detail {
     position: absolute;
     font-family: "UTMAvo";
     color: #fff;
@@ -316,9 +316,9 @@ input[type="text"]:active {
     padding: 0.5rem 1rem;
 }
 
-.sample-high-proj .card .card-img-top #proj-detail span,
-.sample-going-proj1 .card .card-img-top #proj-detail span,
-.sample-going-proj2 .card .card-img-top #proj-detail span {
+.sample-high-proj .card .card-img-top .proj-detail span,
+.sample-going-proj1 .card .card-img-top .proj-detail span,
+.sample-going-proj2 .card .card-img-top .proj-detail span {
     font-family: "UTMAvo Bold";
 }
 
@@ -389,7 +389,7 @@ input[type="text"]:active {
     position: absolute;
     color: #fff;
     bottom: 1rem;
-    left: 1rem;
+    padding: 0 1rem;
 }
 
 .news-content a {
@@ -491,15 +491,15 @@ footer .footer-line {
     .top-banner {
         height: 724px;
     }
-    .navbar-nav #audience {
-        color: #fff;
-        font-size: 18px;
-    }
-    .navbar-nav #user-permit {
+    .navbar-nav .audience {
         color: #fff;
         font-size: 16px;
+    }
+    .navbar-nav .user-permit {
+        color: #fff;
+        font-size: 14px;
         font-weight: normal;
-        line-height: 18px;
+        line-height: 16px;
     }
     .product-content .card .card-body .card-title {
         font-size: 22px;
@@ -532,21 +532,9 @@ footer .footer-line {
     }
     .navbar-collapse .navbar-nav {
         position: absolute;
-        background-color: #000;
-        opacity: 0.65;
+        background-color: rgba(0, 0, 0, .8);
         z-index: 99;
         right: 0;
-    }
-    .navbar-nav #audience {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .navbar-nav #user-permit {
-        color: #fff;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 18px;
     }
     .product-content .card .card-body .card-title {
         font-size: 24px;
@@ -560,13 +548,13 @@ footer .footer-line {
 
 @media screen and (max-width: 1024px) and (min-width: 769px),
 (max-width: 320px) {
-    .sample-high-proj .card .card-img-top #proj-status {
+    .sample-high-proj .card .card-img-top .proj-status {
         background-color: rgba(0, 0, 0, .6);
         width: unset;
         bottom: unset;
         top: 0;
     }
-    .sample-high-proj .card .card-img-top #proj-detail {
+    .sample-high-proj .card .card-img-top .proj-detail {
         background-color: rgba(0, 0, 0, .6);
         width: 100%;
     }
@@ -624,6 +612,16 @@ footer .footer-line {
     .logo {
         width: 30px;
     }
+    .navbar-collapse .navbar-nav {
+        padding-right: 1rem;
+    }
+    .navbar-nav .audience {
+        font-size: 14px;
+    }
+    .navbar-nav .user-permit {
+        font-size: 12px;
+        line-height: 14px;
+    }
     .banner-img {
         height: 300px;
     }
@@ -631,8 +629,7 @@ footer .footer-line {
         height: 300px;
     }
     .banner-content {
-        width: 70%;
-        /* margin: 1rem auto 0; */
+        width: 80%;
     }
     .banner-content h3 {
         font-size: 20px;
@@ -649,6 +646,14 @@ footer .footer-line {
     }
     .main-content-info p {
         font-size: 18px;
+    }
+    .product-content .card .card-body .card-title {
+        font-size: 20px;
+    }
+    .sample-high-proj .card .card-body .card-title,
+    .sample-going-proj1 .card .card-body .card-title,
+    .sample-going-proj2 .card .card-body .card-title {
+        font-size: 20px;
     }
     .news-content a,
     .news-content time {
