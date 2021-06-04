@@ -551,6 +551,11 @@ footer .footer-line {
         z-index: 99;
         right: 0;
     }
+    .sample-high-proj .card .card-body .card-title,
+    .sample-going-proj1 .card .card-body .card-title,
+    .sample-going-proj2 .card .card-body .card-title {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 992px) {
