@@ -283,7 +283,7 @@ input[type="text"]:active {
 .sample-high-proj .card .card-img-top #proj-status {
     position: absolute;
     font-family: "UTMAvo Bold";
-    color: #008518;
+    color: #51ff2a;
     font-size: 20px;
     background-color: rgba(0, 0, 0, .65);
     width: 100%;
@@ -555,6 +555,19 @@ footer .footer-line {
     .sample-going-proj1 .card .card-body .card-title,
     .sample-going-proj2 .card .card-body .card-title {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .sample-high-proj .card .card-img-top #proj-status {
+        background-color: rgba(0, 0, 0, .65);
+        width: unset;
+        bottom: unset;
+        top: 0;
+    }
+    .sample-high-proj .card .card-img-top #proj-detail {
+        background-color: rgba(0, 0, 0, .65);
+        width: 100%;
     }
 }
 
