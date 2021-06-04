@@ -1,19 +1,17 @@
-body a {
+a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     text-decoration: none;
+    color: unset;
 }
 
-body a:hover {
-    text-decoration: none;
-}
-
-body a:focus,
+a:focus,
 a:hover {
     text-decoration: none;
+    color: unset;
 }
 
 @font-face {
@@ -206,7 +204,8 @@ input[type="text"]:active {
 .main-content-info p {
     color: #008518;
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 1.5;
+    text-align: justify !important;
 }
 
 .product-content {
@@ -277,6 +276,53 @@ input[type="text"]:active {
     margin: 0;
 }
 
+.card-img-top {
+    position: relative;
+}
+
+.sample-high-proj .card .card-img-top #proj-status {
+    position: absolute;
+    font-family: "UTMAvo Bold";
+    color: #008518;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .65);
+    width: 100%;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+}
+
+.sample-high-proj .card .card-img-top #proj-detail {
+    position: absolute;
+    font-family: "UTMAvo";
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+}
+
+.sample-going-proj1 .card .card-img-top #proj-detail,
+.sample-going-proj2 .card .card-img-top #proj-detail {
+    position: absolute;
+    font-family: "UTMAvo";
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .65);
+    width: 100%;
+    text-align: left;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+}
+
+.sample-high-proj .card .card-img-top #proj-detail span,
+.sample-going-proj1 .card .card-img-top #proj-detail span,
+.sample-going-proj2 .card .card-img-top #proj-detail span {
+    font-family: "UTMAvo Bold";
+}
+
 .sample-high-proj .card .card-body .card-title,
 .sample-going-proj1 .card .card-body .card-title,
 .sample-going-proj2 .card .card-body .card-title {
@@ -324,6 +370,42 @@ input[type="text"]:active {
 .sub-banner img {
     width: 100%;
     height: auto;
+}
+
+.property-news h1 {
+    font-family: "UTMAvo Bold";
+    color: #008518;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.property-news .first-news img {
+    width: 100%;
+    height: 100%;
+}
+
+.property-news .first-news .news-content {
+    position: absolute;
+    color: #fff;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.news-content a {
+    font-size: 22px;
+    line-height: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.news-content time {
+    font-size: 20px;
+}
+
+.property-news .another-news img {
+    max-height: 130px;
 }
 
 
@@ -471,6 +553,12 @@ footer .footer-line {
     }
 }
 
+@media screen and (max-width: 992px) {
+    .another-news {
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .top-banner {
         height: 435px;
@@ -513,6 +601,13 @@ footer .footer-line {
     }
     .banner-content .input-group {
         border: 3px solid rgba(0, 0, 0, .65);
+    }
+    .main-content-info p {
+        font-size: 18px;
+    }
+    .news-content a,
+    .news-content time {
+        font-size: 18px;
     }
     /* */
     .footer-content #footer-content-info {
