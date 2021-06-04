@@ -364,6 +364,7 @@ input[type="text"]:active {
 .sub-content .sub-info p {
     font-size: 16px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .sub-banner img {
@@ -412,7 +413,7 @@ input[type="text"]:active {
 
 footer {
     position: relative;
-    background-image: url(../images/footer-img.png);
+    background-image: url(../images/footer-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -438,7 +439,7 @@ footer {
 
 .footer-content #company-addr:before {
     content: "";
-    background-image: url(../images/location-icon.png);
+    background-image: url(../images/location-icon.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 25px;
@@ -448,7 +449,7 @@ footer {
 
 .footer-content #company-tel:before {
     content: "";
-    background-image: url(../images/tel-icon.png);
+    background-image: url(../images/tel-icon.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 25px;
@@ -516,6 +517,9 @@ footer .footer-line {
     .top-banner {
         height: 579px;
     }
+    .header-cover {
+        height: 80px;
+    }
     .logo {
         width: 50px;
         height: auto;
@@ -529,6 +533,7 @@ footer .footer-line {
     }
     .navbar {
         z-index: 99;
+        padding-top: 0;
     }
     .navbar-collapse .navbar-nav {
         position: absolute;
@@ -628,6 +633,9 @@ footer .footer-line {
     .banner-cover {
         height: 300px;
     }
+    .header-cover {
+        height: 45px;
+    }
     .banner-content {
         width: 80%;
     }
@@ -644,16 +652,33 @@ footer .footer-line {
     .banner-content .input-group {
         border: 3px solid rgba(0, 0, 0, .65);
     }
-    .main-content-info p {
-        font-size: 18px;
+    .main-content-info h1,
+    .highlight-proj h1,
+    .sub-content .sub-info h1,
+    .ongoing-proj h1,
+    .property-news h1 {
+        font-size: 22px;
     }
-    .product-content .card .card-body .card-title {
-        font-size: 20px;
+    .main-content-info p,
+    .sub-content .sub-info p {
+        font-size: 16px;
+        line-height: 1.3;
     }
+    .product-content .card .card-body .card-title,
     .sample-high-proj .card .card-body .card-title,
     .sample-going-proj1 .card .card-body .card-title,
     .sample-going-proj2 .card .card-body .card-title {
         font-size: 20px;
+    }
+    .product-content .card .card-body .card-text,
+    .sample-high-proj .card .card-body .card-text,
+    .sample-going-proj1 .card .card-body .card-text,
+    .sample-going-proj2 .card .card-body .card-text {
+        font-size: 18px;
+    }
+    .sub-content .sub-info {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .news-content a,
     .news-content time {
@@ -667,7 +692,10 @@ footer .footer-line {
         font-size: 16px;
     }
     .nav-column .footer-nav-title {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .nav-column ul li a {
+        font-size: 14px;
     }
     .product-content {
         display: block !important;
