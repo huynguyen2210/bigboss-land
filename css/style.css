@@ -49,6 +49,11 @@ ul {
     height: 1080px;
 }
 
+.main-header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
 .banner-img {
     position: absolute;
     top: 0;
@@ -63,15 +68,6 @@ ul {
     top: 0;
     object-fit: cover;
     z-index: -2;
-    width: 100%;
-    height: auto;
-}
-
-.header-cover {
-    position: absolute;
-    top: 0;
-    object-fit: cover;
-    z-index: -1;
     width: 100%;
     height: auto;
 }
@@ -517,9 +513,6 @@ footer .footer-line {
     .top-banner {
         height: 579px;
     }
-    .header-cover {
-        height: 80px;
-    }
     .logo {
         width: 50px;
         height: auto;
@@ -632,9 +625,6 @@ footer .footer-line {
     }
     .banner-cover {
         height: 300px;
-    }
-    .header-cover {
-        height: 45px;
     }
     .banner-content {
         width: 80%;
