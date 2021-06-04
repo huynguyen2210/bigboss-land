@@ -91,25 +91,23 @@ ul {
 }
 
 .btn-primary {
-    font-weight: 900 !important;
+    font-family: "UTMAvo Bold";
 }
 
 .navbar-nav #audience {
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
     line-height: 1;
 }
 
 .navbar-nav #user-permit {
     color: #fff;
     font-size: 16px;
-    font-weight: normal;
     line-height: 20px;
 }
 
 .dropdown-menu a {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -142,7 +140,7 @@ ul {
     text-align: center;
     margin-bottom: 50px;
     color: #fff;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .banner-content #prop-sell,
@@ -198,7 +196,7 @@ input[type="text"]:active {
     color: #008518;
     font-size: 26px;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .main-content-info p {
@@ -228,9 +226,9 @@ input[type="text"]:active {
 
 .product-content .card .card-body .card-title {
     max-width: 90%;
-    /* height: 37px; */
+    font-family: "UTMAvo Bold";
     font-size: 26px;
-    font-weight: bolder;
+    font-weight: 500;
     line-height: 1.33;
     margin: 0 auto 10px;
 }
@@ -253,7 +251,7 @@ input[type="text"]:active {
     color: #008518;
     font-size: 25px;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -358,7 +356,7 @@ input[type="text"]:active {
 .sub-content .sub-info h1 {
     font-family: "UTMAvo Bold";
     font-size: 26px;
-    font-weight: bolder;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 1rem;
 }
@@ -377,7 +375,7 @@ input[type="text"]:active {
     font-family: "UTMAvo Bold";
     color: #008518;
     font-size: 26px;
-    font-weight: bolder;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 2rem;
 }
@@ -495,14 +493,16 @@ footer .footer-line {
     }
     .navbar-nav #audience {
         color: #fff;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 18px;
     }
     .navbar-nav #user-permit {
         color: #fff;
         font-size: 16px;
         font-weight: normal;
-        line-height: 26px;
+        line-height: 18px;
+    }
+    .product-content .card .card-body .card-title {
+        font-size: 22px;
     }
 }
 
@@ -513,21 +513,6 @@ footer .footer-line {
 }
 
 @media screen and (max-width: 1024px) {
-    /* .sample-high-proj,
-    .sample-going-proj1,
-    .sample-going-proj2 {
-        display: block !important;
-    }
-    .sample-high-proj .card,
-    .sample-going-proj1 .card,
-    .sample-going-proj2 .card {
-        max-width: 45%;
-        height: 500px;
-        border: unset;
-        text-align: left !important;
-        float: left;
-        margin-right: 5%;
-    } */
     .top-banner {
         height: 579px;
     }
@@ -551,6 +536,20 @@ footer .footer-line {
         opacity: 0.65;
         z-index: 99;
         right: 0;
+    }
+    .navbar-nav #audience {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .navbar-nav #user-permit {
+        color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 18px;
+    }
+    .product-content .card .card-body .card-title {
+        font-size: 24px;
     }
     .sample-high-proj .card .card-body .card-title,
     .sample-going-proj1 .card .card-body .card-title,
