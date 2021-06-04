@@ -98,16 +98,16 @@ ul {
 
 .navbar-nav #audience {
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1;
 }
 
 .navbar-nav #user-permit {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
-    line-height: 26px;
+    line-height: 20px;
 }
 
 .dropdown-menu a {
